@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.navigation {
+    width: 100%;
+    background-color: deeppink;
+    margin:0 0 0 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0 0 0 30%;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}
+
+ .navigation ul li {
+        display: inline;
+        width: 20%;
+        height: 100%;
+        padding: 5% 5% 5% 5%;
+    }
+
+ .navigation ul li:hover{
+        background-color:purple;
+        color:white;
+    }
+
+.navigation ul li a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+
